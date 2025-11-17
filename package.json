@@ -5,7 +5,7 @@
   "scripts": {
     "predeploy": "sudo npm run build",
     "deploy": "sudo npm run gh-pages",
-    "gh-pages": "sudo gh-pages -d build -b gh-pages",
+    "gh-pages": "gh-pages -d build -b gh-pages",
     "build": "sudo slidev build --out build",
     "dev": "slidev --open",
     "export": "slidev export"
