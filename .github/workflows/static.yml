@@ -27,6 +27,8 @@ jobs:
 
       - name: Setup @antfu/ni
         run: npm i -g @antfu/ni
+      
+      - name: Setup Slidev
         run: npm i -g @slidev/cli
 
       - name: Install dependencies
