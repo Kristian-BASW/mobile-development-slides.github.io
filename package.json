@@ -3,10 +3,10 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "npm run gh-pages",
-    "gh-pages": "gh-pages -d dist -b gh-pages",
-    "build": "slidev build",
+    "predeploy": "sudo npm run build",
+    "deploy": "sudo npm run gh-pages",
+    "gh-pages": "gh-pages -d build -b gh-pages",
+    "build": "sudo slidev build --out build",
     "dev": "slidev --open",
     "export": "slidev export"
   },
